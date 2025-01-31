@@ -44,10 +44,10 @@ def stop_loop():
 
 
 root = tk.Tk()
-root.title("Mouse Mover")
+root.title("No sleep app")
 
 #duration input
-duration_label = tk.Label(root, text="Loop Duration (seconds):")
+duration_label = tk.Label(root, text="Duration (seconds):")
 duration_label.pack(pady=5)
 duration_entry = tk.Entry(root)
 duration_entry.pack(pady=5)
